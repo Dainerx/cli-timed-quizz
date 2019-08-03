@@ -27,6 +27,8 @@ func main() {
 		select {
 		case <-timer.C:
 			score, total := scoreAndTotal(tasks, answers)
+			fmt.Println("\n======================")
+			fmt.Println("Time is up!")
 			fmt.Println("Your score is: ", score, "/", total)
 			return
 		case <-answerChannel:
@@ -34,6 +36,7 @@ func main() {
 		}
 	}
 	score, total := scoreAndTotal(tasks, answers)
+	fmt.Println("\n======================")
 	fmt.Println("Your score is: ", score, "/", total)
 }
 

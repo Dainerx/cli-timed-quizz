@@ -5,7 +5,6 @@ Interactive CLI elementary math quiz that reads problems from csv file.
 #### Topics covered
 
 [![topic: csvs](https://img.shields.io/badge/topic-csvs-green.svg?style=flat-square)](https://github.com/search?q=topic%3Acsvs+org%3Agophercises&type=Repositories)
-[![topic: flags](https://img.shields.io/badge/topic-flags-green.svg?style=flat-square)](https://github.com/search?q=topic%3Aflags+org%3Agophercises&type=Repositories)
 [![topic: opening files](https://img.shields.io/badge/topic-files-green.svg?style=flat-square)](https://github.com/search?q=topic%3Aos%2Dpackage+org%3Agophercises&type=Repositories)
 [![topic: strings](https://img.shields.io/badge/topic-strings-green.svg?style=flat-square)](https://github.com/search?q=topic%3Astrings+org%3Agophercises&type=Repositories)
 [![topic: goroutines](https://img.shields.io/badge/topic-goroutines-green.svg?style=flat-square)](https://github.com/search?q=topic%3Agoroutines+org%3Agophercises&type=Repositories)
@@ -17,3 +16,5 @@ Interactive CLI elementary math quiz that reads problems from csv file.
 Reads records from csv file, interact with user to read his answers then display score.
 
 ## Coming next
+
+Adding a timer to make the quiz timed. The quiz stops as soon as the time limit has exceeded. Quiz does not wait for user to enter his answer, it exits automatically and displays the current score.
